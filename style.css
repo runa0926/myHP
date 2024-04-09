@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+header {
+  background: pink;
+}

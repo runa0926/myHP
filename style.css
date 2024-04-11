@@ -1,11 +1,13 @@
 @charset "utf-8";
-
-body {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
+.smairu {
   margin: 0;
+  align-items: center;
 }
 
 img {
@@ -13,5 +15,98 @@ img {
 }
 
 header {
-  background: pink;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+header h1 {
+  width: 30px;
+}
+header nav {
+  width: 70%;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+header li{
+  width: 100%;
+  background-color: antiquewhite;
+  line-height: 2.5;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+.mainvisual {
+  margin-bottom: 80px;
+}
+
+.mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+img {
+  border-style: none;
+}
+
+ul {
+  margin-top: 64px;
+}
+
+.riri {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 64px;
+}
+
+.ruka {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.ume {
+  list-style: none;
+  margin-top: 64px;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.products li {
+  width: calc((100% - 3px) / 3);
+  box-sizing: border-box;
+}
+
+.products img {
+  width: 100%;
+  height: auto;
+}
+
+dl {
+  text-align: center;
+  margin-top: 64px;
+}
+
+
+footer {
+  background: black;
+  padding: 10px 20px;
+  text-align: center;
+  color: white;
+  font-size: 0.5rem
 }

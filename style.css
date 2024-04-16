@@ -5,9 +5,12 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .smairu {
   margin: 0;
-  align-items: center;
 }
 
 img {
@@ -15,6 +18,7 @@ img {
 }
 
 header {
+  background: pink;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -22,7 +26,7 @@ header {
 }
 
 header h1 {
-  width: 30px;
+  width: 30%;
 }
 header nav {
   width: 70%;
@@ -31,18 +35,26 @@ header nav {
 header ul {
   display: flex;
   list-style: none;
-  background-color: antiquewhite;
+  background: antiquewhite;
   text-align: center;
+  padding: 10px 0;
 }
 
 header li{
   width: 100%;
   background-color: antiquewhite;
-  line-height: 2.5;
+  line-height: 2.5; 
+  font-size: 0.9rem;
+  margin-left: 30px;
+ 
 }
 
 header a {
   color: black;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -56,6 +68,7 @@ header a {
   height: 420px;
   object-fit: cover;
 }
+
 img {
   border-style: none;
 }
@@ -79,14 +92,6 @@ ul {
   gap: 10px;
 }
 
-.ume {
-  list-style: none;
-  margin-top: 64px;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-}
-
 .products li {
   width: calc((100% - 3px) / 3);
   box-sizing: border-box;
@@ -102,6 +107,21 @@ dl {
   margin-top: 64px;
 }
 
+button {
+ all: unset;
+ width: 200px;
+ background: black;
+ color: white;
+ text-align: center;
+ padding: 15px 0;
+ border: solid 1px black;
+}
+
+.w-1 {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  padding: 0.4%;
+}
 
 footer {
   background: black;
